@@ -1,9 +1,9 @@
 const express = require("express");
 const clientController = require("../controllers/clientController");
-const authController = require("../controllers/authController");
+// const authController = require("../controllers/authController");
 const router = express.Router();
 
-router.use(authController.checkToken);
+// router.use(authController.checkToken);
 
 // post and get
 
